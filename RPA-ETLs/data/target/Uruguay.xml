@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartbox - Uruguay</title>
+    <link>www.bigbox.com.uy</link>
+    <description>Experiencias disponibles en Uruguay.</description>
+    <item>
+      <id_experiencia>11</id_experiencia>
+      <experiencia>Clase de cata de vinos</experiencia>
+      <categoria>Cultural</categoria>
+      <ubicacion>Montevideo</ubicacion>
+      <pais>Uruguay</pais>
+      <duracion>1 día</duracion>
+      <precio>75</precio>
+      <disponibilidad>Todo el año</disponibilidad>
+      </item>
+    <item>
+      <id_experiencia>12</id_experiencia>
+      <experiencia>Día de campo en la rural</experiencia>
+      <categoria>Aventura</categoria>
+      <ubicacion>Durazno</ubicacion>
+      <pais>Uruguay</pais>
+      <duracion>1 día</duracion>
+      <precio>80</precio>
+      <disponibilidad>Otoño</disponibilidad>
+      </item>
+    <item>
+      <id_experiencia>13</id_experiencia>
+      <experiencia>Excursión a Colonia del Sacramento</experiencia>
+      <categoria>Cultural</categoria>
+      <ubicacion>Colonia del Sacramento</ubicacion>
+      <pais>Uruguay</pais>
+      <duracion>3 horas</duracion>
+      <precio>100</precio>
+      <disponibilidad>Todo el año</disponibilidad>
+      </item>
+    <item>
+      <id_experiencia>14</id_experiencia>
+      <experiencia>Taller de arte en Montevideo</experiencia>
+      <categoria>Cultural</categoria>
+      <ubicacion>Montevideo</ubicacion>
+      <pais>Uruguay</pais>
+      <duracion>2 horas</duracion>
+      <precio>90</precio>
+      <disponibilidad>Todo el año</disponibilidad>
+      </item>
+    <item>
+      <id_experiencia>15</id_experiencia>
+      <experiencia>Clase de cocina uruguaya</experiencia>
+      <categoria>Culinaria</categoria>
+      <ubicacion>Montevideo</ubicacion>
+      <pais>Uruguay</pais>
+      <duracion>3 horas</duracion>
+      <precio>150</precio>
+      <disponibilidad>Primavera</disponibilidad>
+      </item>
+    </channel>
+  </rss>
