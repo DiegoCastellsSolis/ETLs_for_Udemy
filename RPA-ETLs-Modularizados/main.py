@@ -1,19 +1,12 @@
 # main.py
 
-from src.etl import extract_data, transform_data, load_data
+from src.etl import ETLProcess
 
 def main():
-    csv_path = './data/source/experiencias_por_pais.csv'
-    target_path = './data/target/'
+    csv_path = './data/source/experiencias_por_pais.csv'  # Asegúrate de que esta ruta sea correcta
+    target_path = './data/target/'  # Asegúrate de que esta ruta sea correcta
+    etl = ETLProcess(csv_path, target_path)
+    etl.run()  # Ejecuta el proceso ETL
 
-    # Etapa de extracción
-    df = extract_data(csv_path)
-
-    # Etapa de transformación
-    unique_countries = transform_data(df)
-
-    # Etapa de carga
-    load_data(df, target_path)
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
